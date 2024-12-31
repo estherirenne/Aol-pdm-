@@ -1,9 +1,165 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="26.0.2">
   <diagram name="Page-1" id="i8fCHmZu7AQbfvs-k8Qr">
-    <mxGraphModel>
+    <mxGraphModel dx="1323" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_wpjrSCZuWLptleAkMlI-1" value="customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="530" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-12" value="register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="50" y="10" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-13" value="Log in" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="90" y="130" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-17" value="Process Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="310" y="160" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-16" value="Verify Credentials" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="200" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-15" value="View Rental History" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="320" y="20" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-14" value="Rent Battery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="20" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-18" value="Display Batteries" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="20" y="369.5" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-20" value="Check Battery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="210" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-19" value="Return Battery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="20" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-25" value="Manage Batteries" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="20" y="615" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-24" value="Confirm Payment" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="360" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-21" value="Check Battery Status" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="210" y="580" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-22" value="Delivery/Collect Battery" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="_wpjrSCZuWLptleAkMlI-2">
+          <mxGeometry x="370" y="510" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-36" value="&amp;lt;include&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-12" target="_wpjrSCZuWLptleAkMlI-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="70" as="sourcePoint" />
+            <mxPoint x="330" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-37" value="&amp;lt;include&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.014;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-14" target="_wpjrSCZuWLptleAkMlI-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-51" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="230" as="sourcePoint" />
+            <mxPoint x="570" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-53" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="480" as="sourcePoint" />
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-14" target="_wpjrSCZuWLptleAkMlI-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="310" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-58" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-19" target="_wpjrSCZuWLptleAkMlI-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="480" as="sourcePoint" />
+            <mxPoint x="370" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-61" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" target="_wpjrSCZuWLptleAkMlI-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="280" y="580" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-19" target="_wpjrSCZuWLptleAkMlI-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="550" as="sourcePoint" />
+            <mxPoint x="310" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-63" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-14" target="_wpjrSCZuWLptleAkMlI-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="320" as="sourcePoint" />
+            <mxPoint x="250" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-64" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_wpjrSCZuWLptleAkMlI-2" source="_wpjrSCZuWLptleAkMlI-13" target="_wpjrSCZuWLptleAkMlI-16">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="220" as="sourcePoint" />
+            <mxPoint x="310" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-3" value="Payment System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="280" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-6" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="80" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-7" value="Logistic&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="525" width="90" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_wpjrSCZuWLptleAkMlI-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="290" as="sourcePoint" />
+            <mxPoint x="170" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_wpjrSCZuWLptleAkMlI-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="354" as="sourcePoint" />
+            <mxPoint x="140" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_wpjrSCZuWLptleAkMlI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="340" as="sourcePoint" />
+            <mxPoint x="140" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="_wpjrSCZuWLptleAkMlI-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="290" as="sourcePoint" />
+            <mxPoint x="190" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_wpjrSCZuWLptleAkMlI-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="340" as="sourcePoint" />
+            <mxPoint x="140" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-50" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="_wpjrSCZuWLptleAkMlI-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="760" as="sourcePoint" />
+            <mxPoint x="180" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wpjrSCZuWLptleAkMlI-52" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_wpjrSCZuWLptleAkMlI-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="410" as="sourcePoint" />
+            <mxPoint x="740" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
